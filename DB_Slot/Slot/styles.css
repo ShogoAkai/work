@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700|Roboto:400,700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 48px;
+    color: #4CAF50;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.slot-machine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.slot {
+    margin: 0 10px;
+    width: 100px; /* スロット画像の幅 */
+    height: 100px; /* スロット画像の高さ */
+}
+
+.controls {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.control {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: 'Amatic SC', cursive;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.control:hover {
+    background-color: #45a049;
+}
+
+#money {
+    font-weight: bold;
+    color: #ff0000;
+    font-size: 24px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.home-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 18px;
+}
+
+.home-link:hover {
+    background-color: #d32f2f;
+}
